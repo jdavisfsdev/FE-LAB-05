@@ -11,5 +11,5 @@ export function Quote({ quote }) {
   );
 }
 Quote.propTypes = {
-  quote: PropTypes.string.isRequired
+  quote: PropTypes.string
 };

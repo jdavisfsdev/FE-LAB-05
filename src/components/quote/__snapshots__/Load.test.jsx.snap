@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Load component snappy renders LOAD button 1`] = `
+<DocumentFragment>
+  <button>
+    LOAD
+  </button>
+</DocumentFragment>
+`;

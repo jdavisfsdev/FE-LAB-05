@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component Snaparoo renders quote area 1`] = `
+<DocumentFragment>
+  <div
+    class="quoteDisplay"
+  >
+    <h1>
+      Random Rick and Morty Character
+    </h1>
+    <h2 />
+  </div>
+</DocumentFragment>
+`;

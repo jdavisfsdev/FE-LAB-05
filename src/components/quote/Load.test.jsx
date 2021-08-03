@@ -1,11 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Quote } from './Quote';
+import { Load } from './Load';
 
-describe('Quote component Snaparoo', () => {
-  it('renders quote area', () => {
+describe('Load component snappy', () => {
+  it('renders LOAD button', () => {
     const { asFragment } = render(
-      <Quote />
+      <Load />
     );
     expect(asFragment()).toMatchSnapshot();
   });
