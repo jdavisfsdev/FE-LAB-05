@@ -1,5 +1,10 @@
 import React from 'react';
+import { TheOfficeQuote } from '../containers/TheOfficeQuote';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <TheOfficeQuote />
+    </div>
+  );
 }
