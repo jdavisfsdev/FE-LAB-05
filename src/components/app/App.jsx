@@ -1,10 +1,10 @@
 import React from 'react';
-import { TheOfficeQuote } from '../containers/TheOfficeQuote';
+import { RickAndMorty } from '../containers/RickAndMorty';
 
 export default function App() {
   return (
     <div>
-      <TheOfficeQuote />
+      <RickAndMorty />
     </div>
   );
 }
