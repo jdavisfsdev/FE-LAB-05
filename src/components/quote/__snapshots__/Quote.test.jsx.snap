@@ -8,7 +8,9 @@ exports[`Quote component Snaparoo renders quote area 1`] = `
     <h1>
       Random Rick and Morty Character
     </h1>
-    <h2 />
+    <h2
+      data-testid="h2"
+    />
   </div>
 </DocumentFragment>
 `;

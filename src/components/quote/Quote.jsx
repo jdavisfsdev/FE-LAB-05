@@ -6,7 +6,7 @@ export function Quote({ quote }) {
   return (
     <div className={style.quoteDisplay}>
       <h1>Random Rick and Morty Character</h1>
-      <h2>{JSON.stringify(quote)}</h2>
+      <h2 data-testid="h2">{JSON.stringify(quote)}</h2>
     </div>
   );
 }

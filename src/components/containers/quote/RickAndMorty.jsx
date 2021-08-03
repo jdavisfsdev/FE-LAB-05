@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { getQuote } from '../../services/getQuote';
-import { Load } from '../quote/Load';
-import { Quote } from '../quote/Quote';
+import React, { useState } from 'react';
+import { getQuote } from '../../../services/getQuote';
+import { Load } from '../../quote/Load';
+import { Quote } from '../../quote/Quote';
 // import style from './TheOfficeQuote.module.css';
 
-export function TheOfficeQuote() {
+export function RickAndMorty() {
   const [quote, setQuote] = useState();
 
   const handleClick = async (e) => {
