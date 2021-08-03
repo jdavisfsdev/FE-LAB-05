@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './Quote.module.css';
 
 export function Quote({ quote }) {
@@ -9,3 +10,6 @@ export function Quote({ quote }) {
     </div>
   );
 }
+Quote.propTypes = {
+  quote: PropTypes.string.isRequired
+};
